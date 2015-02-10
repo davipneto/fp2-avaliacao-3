@@ -17,6 +17,7 @@ public class Lancamento {
     
     private final SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
 
+    
     public Lancamento(Integer conta, Date data, String descricao, Double valor) {
         this.conta = conta;
         this.data = data;
